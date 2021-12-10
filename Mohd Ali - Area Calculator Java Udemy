@@ -1,6 +1,6 @@
 public class AreaCalculator {
     public static double area(double radius){
-        if(radius &lt;0.0){
+        if(radius < 0.0){
             return -1.0;
         }
         else{
@@ -8,7 +8,7 @@ public class AreaCalculator {
         }
     }
         public static double area(double x, double y){
-            if(x&lt;0.0 || y &lt;0.0){
+            if(x < 0.0 || y < 0.0){
                 return -1.0;
             }
             else {
