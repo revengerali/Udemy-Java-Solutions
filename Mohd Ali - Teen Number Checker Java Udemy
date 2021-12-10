@@ -1,0 +1,19 @@
+public class TeenNumberChecker {
+ public static boolean hasTeen(int first, int second, int third){
+     if ((first &gt;=13 &amp;&amp; first &lt;=19)||(second &gt;=13 &amp;&amp; second &lt;=19)||(third &gt;=13 &amp;&amp; third &lt;=19)){
+         return true;
+     }
+     else {
+         return false;
+     }
+ }
+ public static boolean isTeen (int fourth){
+     if(fourth &gt;=13 &amp;&amp; fourth &lt;=19){
+         return true;
+     }
+ 
+     else{
+         return false;
+     }
+ }
+}
